@@ -69,7 +69,7 @@ The `--file` flag will interpret the file as a `system` prompt by default.
 Use the `--role` (`-r`) flag to change the role of the prompt in a file.
 
 ```shell
-echo "I am Shodan from the video game series System Shock." > prompt.txt
+echo "I am Frodo Baggins a hobbit from the shire." > prompt.txt
 bun run dev -f prompt.txt -r user
 # Greetings, Frogo Baggins! How may I assist you on your journey today?
 ```
